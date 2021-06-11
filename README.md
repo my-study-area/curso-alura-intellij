@@ -11,6 +11,9 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `alt + insert`: permitr gerar getters, setters, construtores e etc nas classes.
 - `ctrl + n`: permite pesquisar e abrir um arquivo do projeto.
 - `alt + enter`: exibe e executa dicas, com por exemplo, atribuir uma instância em uma varável.
+- `ctrl + d`: duplica a linha
+- `ctrl + y`: apaga a linha
+- `ctrl + shif + a`: acessa uma barra de pesquisa para os comandos e funcionalidades.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
