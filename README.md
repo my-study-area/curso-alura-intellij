@@ -14,6 +14,10 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + d`: duplica a linha
 - `ctrl + y`: apaga a linha
 - `ctrl + shif + a`: acessa uma barra de pesquisa para os comandos e funcionalidades.
+- `ctrl + shif + f12`: esconde a aba project e as demais telas.
+- `ctrl + b`: com o cursor posicionado no nome da classe, acessa o arquivo que possui a classe.
+- `alt + arrow right ou arrow left`: percorre entre as abas dos arquivos abertos para direita ou esquerda.
+- `alt + shift + x`: fecha todas as abas abertas.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
