@@ -9,7 +9,7 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `f6`: dentro da aba project com a classe selecionada, abre uma caixa para mover a classe para um pacote
 - `alt + shift + insert`: permite criar multiplos cursores verticalmente para serem criados usando a tecla `shift + arrow up ou arrow down`.
 - `alt + insert`: permitr gerar getters, setters, construtores e etc nas classes.
-- `ctrl + n`: permite pesquisar e abrir um arquivo do projeto.
+- `ctrl + n`: permite pesquisar e abrir um arquivo do projeto. Também é possível abrir uma classe numa linha em específico, como por exemplo, digitando `Principal:12`
 - `alt + enter`: exibe e executa dicas, com por exemplo, atribuir uma instância em uma varável.
 - `ctrl + d`: duplica a linha
 - `ctrl + y`: apaga a linha
@@ -26,6 +26,10 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + e`: acessar os últimos arquivos acessados
 - `ctrl + shif + n`: procura por atributos e métodos dentro das classes.
 - `ctrl + shift + f`: busca por um texto (conteúdo) de um arquivo.
+- `ctrl + f12`: mostra a estrutura da classe, exibindo os nomes dos atributos e métodos da classe.
+- `alt + f7`: (find usages) com o cursor em cima do método, verifica as ocorrências de uso do método no projeto.
+- `ctrl + h`: abre a visualização da hierarquia de uma classe.
+- `alt + home`: (navigation bar) navegação no projeto, semelhante a aba project, porém na barra próxima a barra de menu (breadcrumbs).
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
