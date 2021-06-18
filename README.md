@@ -22,6 +22,10 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + alt + l`: reformata o código atual.
 - `shift + f6`: refatora nome de variável, classe, interface e etc.
 - `ctrl + shift + arrow up ou arrow down`: move a linha atual somente do contexto válido, por exemplo, uma variável criada dentro de um método somente poderá ser movida dentro do próprio método.
+- `shift shift`: buscar por qualquer tipo de arquivo no projeto
+- `ctrl + e`: acessar os últimos arquivos acessados
+- `ctrl + shif + n`: procura por atributos e métodos dentro das classes.
+- `ctrl + shift + f`: busca por um texto (conteúdo) de um arquivo.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
