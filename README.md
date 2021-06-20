@@ -30,6 +30,8 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `alt + f7`: (find usages) com o cursor em cima do método, verifica as ocorrências de uso do método no projeto.
 - `ctrl + h`: abre a visualização da hierarquia de uma classe.
 - `alt + home`: (navigation bar) navegação no projeto, semelhante a aba project, porém na barra próxima a barra de menu (breadcrumbs).
+- `ctrl + alt + shift + t`: com o trecho de código selecionado (por exemplo, o método), você pode extrair o método para uma nova classe.
+- `ctrl + shift + f6`: (type migration) com a classe selecionada, permite alterar o tipo (classe) de uma propriedade de uma classe.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
