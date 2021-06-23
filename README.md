@@ -30,7 +30,7 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `alt + f7`: (find usages) com o cursor em cima do método, verifica as ocorrências de uso do método no projeto.
 - `ctrl + h`: abre a visualização da hierarquia de uma classe.
 - `alt + home`: (navigation bar) navegação no projeto, semelhante a aba project, porém na barra próxima a barra de menu (breadcrumbs).
-- `ctrl + alt + shift + t`: com o trecho de código selecionado (por exemplo, o método), você pode extrair o método para uma nova classe, extrair para uma super classe ou para uma interface.
+- `ctrl + alt + shift + t`: com o trecho de código selecionado (por exemplo, o método), você pode extrair o método para uma nova classe, extrair para uma super classe ou para uma interface. Também é possível passar métodos e propriedades de uma classe filha para a classe mãe através da opção `Pull Members Up ...` e da classe mãe para a classe filha através da opção `Push Members Down ...`.
 - `ctrl + shift + f6`: (type migration) com a classe selecionada, permite alterar o tipo (classe) de uma propriedade de uma classe.
 
 ### Outros
@@ -43,5 +43,5 @@ public static void main(String[] args) {
 ```
 - `sout` + `ctrl + espaço`:  cria o método `System.out.println();`.
 - `File > Settinhs ... > Keymap`: visualiza ou pesquisa os atalhos disponíveis.
-
+- `Refactor > Encapsulate fields` ou `alt + r depois alt + r`: possibilita a adição da visibilidade das propriedades de uma classe e criação de métodos getter e setter.
 
