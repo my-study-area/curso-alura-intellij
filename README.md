@@ -32,6 +32,8 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `alt + home`: (navigation bar) navegação no projeto, semelhante a aba project, porém na barra próxima a barra de menu (breadcrumbs).
 - `ctrl + alt + shift + t`: com o trecho de código selecionado (por exemplo, o método), você pode extrair o método para uma nova classe, extrair para uma super classe ou para uma interface. Também é possível passar métodos e propriedades de uma classe filha para a classe mãe através da opção `Pull Members Up ...` e da classe mãe para a classe filha através da opção `Push Members Down ...`.
 - `ctrl + shift + f6`: (type migration) com a classe selecionada, permite alterar o tipo (classe) de uma propriedade de uma classe.
+- `ctrl + shift + alt + s`: (project structure) abre uma janela que permite adicionar ou remover bibliotecas.
+- `ctrl + w`: com o cursor no nome do método, seleciona a palavra e conforme for pressionando novamento o atalho é selecionado o método e assim progressivamente até selecionar o arquivo todo.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
@@ -44,4 +46,4 @@ public static void main(String[] args) {
 - `sout` + `ctrl + espaço`:  cria o método `System.out.println();`.
 - `File > Settinhs ... > Keymap`: visualiza ou pesquisa os atalhos disponíveis.
 - `Refactor > Encapsulate fields` ou `alt + r depois alt + r`: possibilita a adição da visibilidade das propriedades de uma classe e criação de métodos getter e setter.
-
+- `alt + enter` com o cursor em cima do nome da classe e selecione a opção `Create Test`: abre uma caixa com as opções para criação de testes unitários.
