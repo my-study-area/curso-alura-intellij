@@ -40,6 +40,11 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
   - `shift + f8`: (step out) a execução avança para o próximo passo, sem passar pelas implementações.
   - `alt + shift + f9`: (run to cursor) executa o degug na linha do cursor.
   - `alt + f8`: (Evaluate Expression) permite acessar variáveis e métodos, mostrando os seus valores.
+- `ctrl + /`: comenta linha do codigo.
+- `ctrl + alt + v`: depois de criar alguma instância `(new LeitorCSV())`, cria uma variável local.
+- `ctrl + alt + f`: depois de criar alguma instância `(new LeitorCSV())`, cria uma nova propriedade na classe.
+- `ctrl + alt + c`: depois de criar alguma instância `(new LeitorCSV())`, cria uma nova constante na classe.
+- `ctrl + j`: lista os lives templates
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
@@ -53,3 +58,5 @@ public static void main(String[] args) {
 - `File > Settinhs ... > Keymap`: visualiza ou pesquisa os atalhos disponíveis.
 - `Refactor > Encapsulate fields` ou `alt + r depois alt + r`: possibilita a adição da visibilidade das propriedades de uma classe e criação de métodos getter e setter.
 - `alt + enter` com o cursor em cima do nome da classe e selecione a opção `Create Test`: abre uma caixa com as opções para criação de testes unitários.
+- ao digitar `new LeitorCSV().var` e pressionar `ctrl + espaço` e depois `enter` gera uma variável com o seguinte conteúdo: `LeitorCSV leitorCSV = new LeitorCSV();`.
+- ao digitar `new LeitorCSV().field` e pressionar `ctrl + espaço` e depois `enter` gera um campo `private static LeitorCSV leitorCSV;`e uma variável `leitorCSV`.
