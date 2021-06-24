@@ -34,6 +34,12 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + shift + f6`: (type migration) com a classe selecionada, permite alterar o tipo (classe) de uma propriedade de uma classe.
 - `ctrl + shift + alt + s`: (project structure) abre uma janela que permite adicionar ou remover bibliotecas.
 - `ctrl + w`: com o cursor no nome do método, seleciona a palavra e conforme for pressionando novamento o atalho é selecionado o método e assim progressivamente até selecionar o arquivo todo.
+- `alt + shift + f9`: executa a classe em modo debug.
+  - `f7`: (step into) a execução passa para o próximo passo, entrando nas implementações.
+  - `f8`: (step over) a execução passa para o próximo passo, sem entrar na implementações.
+  - `shift + f8`: (step out) a execução avança para o próximo passo, sem passar pelas implementações.
+  - `alt + shift + f9`: (run to cursor) executa o degug na linha do cursor.
+  - `alt + f8`: (Evaluate Expression) permite acessar variáveis e métodos, mostrando os seus valores.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
