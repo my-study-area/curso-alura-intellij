@@ -45,6 +45,7 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + alt + f`: depois de criar alguma instância `(new LeitorCSV())`, cria uma nova propriedade na classe.
 - `ctrl + alt + c`: depois de criar alguma instância `(new LeitorCSV())`, cria uma nova constante na classe.
 - `ctrl + j`: lista os lives templates
+- `ctrl + at + o`: atualiza os imports
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
@@ -60,3 +61,13 @@ public static void main(String[] args) {
 - `alt + enter` com o cursor em cima do nome da classe e selecione a opção `Create Test`: abre uma caixa com as opções para criação de testes unitários.
 - ao digitar `new LeitorCSV().var` e pressionar `ctrl + espaço` e depois `enter` gera uma variável com o seguinte conteúdo: `LeitorCSV leitorCSV = new LeitorCSV();`.
 - ao digitar `new LeitorCSV().field` e pressionar `ctrl + espaço` e depois `enter` gera um campo `private static LeitorCSV leitorCSV;`e uma variável `leitorCSV`.
+- para criar uma live template consulte `Live template` na pesquisa de actions (ctrl + shift + a) e clique em incluir. Exemplo de texto:
+```java
+static final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger($CLASSNAME$.class);
+```
+Exemplo usando `$SELECTION$` para criar um `Surround with ...`:
+```java
+if($END$) {
+    $SELECTION$
+}
+```
