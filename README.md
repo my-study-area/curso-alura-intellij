@@ -56,6 +56,9 @@ Curso de IntelliJ IDEA: aumente a sua produtividade em projetos Java
 - `ctrl + alt + c`: depois de criar alguma instância `(new LeitorCSV())`, cria uma nova constante na classe.
 - `ctrl + j`: lista os lives templates
 - `ctrl + at + o`: atualiza os imports
+- `ctrl + shift + alt + j`: com a palavra selecionada, seleciona todas as ocorrências da palavra criando multiplos seletores.
+- `alt + j`: com a palavra selecionada, seleciona a próxima ocorrência da palavra criando multiplos seletores. Obs: para avançar uma palavra não desejada utilize a tecla `f3`. Fonte: [Stackoverflow](https://stackoverflow.com/a/30054997/6415045)
+- `alt +shift + j`: após utilizar o atalho `alt + j`, volta para a palavra selecionada anteriormente.
 
 ### Outros
 - `Help > Keymap Reference`: abre a URL [https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) com os atalhos de teclado.
