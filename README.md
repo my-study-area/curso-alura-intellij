@@ -85,3 +85,29 @@ if($END$) {
     $SELECTION$
 }
 ```
+Exemplo de teste unitário:
+```java
+@org.junit.jupiter.api.Test
+@org.junit.jupiter.api.DisplayName("$TEST_NAME$")
+void $METHOD_NAME$() {
+    $END$
+}
+```
+
+Exemplo de post:
+```java
+@org.springframework.web.bind.annotation.PostMapping
+public ResponseEntity<$RESPONSE_TYPE$> $METHOD_NAME$(@jakarta.validation.Valid @org.springframework.web.bind.annotation.RequestBody $REQUEST_TYPE$ $REQUEST_VARIABLE$) {
+    $END$
+    return $RETURN_VALUE$;
+}
+```
+
+Exemplo de get:
+```java
+@org.springframework.web.bind.annotation.GetMapping
+public ResponseEntity<$RESPONSE_TYPE$> $METHOD_NAME$() {
+    $END$
+    return $RETURN_VALUE$;
+}
+```
