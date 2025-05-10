@@ -97,7 +97,7 @@ void $METHOD_NAME$() {
 Exemplo de post:
 ```java
 @org.springframework.web.bind.annotation.PostMapping
-public ResponseEntity<$RESPONSE_TYPE$> $METHOD_NAME$(@jakarta.validation.Valid @org.springframework.web.bind.annotation.RequestBody $REQUEST_TYPE$ $REQUEST_VARIABLE$) {
+public org.springframework.http.ResponseEntity<$RESPONSE_TYPE$> $METHOD_NAME$(@jakarta.validation.Valid @org.springframework.web.bind.annotation.RequestBody $REQUEST_TYPE$ $REQUEST_VARIABLE$) {
     $END$
     return $RETURN_VALUE$;
 }
